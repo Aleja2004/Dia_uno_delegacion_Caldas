@@ -1,10 +1,11 @@
 using Proyecto.Dominio;
+using System.Collections.Generic;
 namespace Proyecto.Persistencia
 {
     public interface IRepositorio
     {
         //Establecimiento
-        IEnumerable GetAllEstablecimientos(); //Consultar Establecimientos
+        IEnumerable<Establecimientos> GetAllEstablecimientos(); //Consultar Establecimientos
         Establecimientos AddEstablecimientos(Establecimientos establecimientos); //Crear Establecimientos
         Establecimientos UpdateEstablecimientos(Establecimientos establecimientos); //Actualizar Establecimientos
         void DeleteEstablecimientos(int establecimientosId); //Eliminar Establecimientos
@@ -24,12 +25,7 @@ namespace Proyecto.Persistencia
         void DeleteMunicipios(int municipiosId); // Eliminar Municipios
         Municipios GetMunicipios(int municipiosId); // Buscar un Municipio
 
-        // Cuidadora
-        IEnumerable<Cuidadora> GetAllCuidadoras(); // Consultar Cuidadora
-        Cuidadora AddCuidadora(Cuidadora cuidadora); // Crear Cuidadora
-        Cuidadora UpdateCuidadora(Cuidadora cuidadora); // Actualizar Cuidadora
-        void DeleteCuidadora(int cuidadoraId); // Eliminar Cuidadora
-        Cuidadora GetCuidadora(int cuidadoraId); // Buscar una Cuidadora
+       
 
         // Servicios
         IEnumerable<Servicios> GetAllServicios(); // Consultar Servicios
