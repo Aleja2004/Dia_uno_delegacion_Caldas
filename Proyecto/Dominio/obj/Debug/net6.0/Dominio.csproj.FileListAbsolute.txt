@@ -21,3 +21,15 @@ C:\Users\SENa\Desktop\competencia-master\proyecto\dominio\obj\Debug\net6.0\Domin
 C:\Users\SENa\Desktop\competencia-master\proyecto\dominio\obj\Debug\net6.0\refint\Dominio.dll
 C:\Users\SENa\Desktop\competencia-master\proyecto\dominio\obj\Debug\net6.0\Dominio.pdb
 C:\Users\SENa\Desktop\competencia-master\proyecto\dominio\obj\Debug\net6.0\ref\Dominio.dll
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\bin\Debug\net6.0\Dominio.deps.json
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\bin\Debug\net6.0\Dominio.dll
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\bin\Debug\net6.0\Dominio.pdb
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\Dominio.dll
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\refint\Dominio.dll
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\Dominio.pdb
+D:\Desktop\Dia_uno_delegacion_Caldas\proyecto\dominio\obj\Debug\net6.0\ref\Dominio.dll

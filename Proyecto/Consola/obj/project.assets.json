@@ -2889,19 +2889,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SENa\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SENa\\Desktop\\competencia-master\\proyecto\\consola\\Consola.csproj",
+      "projectUniqueName": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\consola\\Consola.csproj",
       "projectName": "Consola",
-      "projectPath": "C:\\Users\\SENa\\Desktop\\competencia-master\\proyecto\\consola\\Consola.csproj",
-      "packagesPath": "C:\\Users\\SENa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SENa\\Desktop\\competencia-master\\proyecto\\consola\\obj\\",
+      "projectPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\consola\\Consola.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SENa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2913,8 +2913,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\SENa\\Desktop\\competencia-master\\proyecto\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "C:\\Users\\SENa\\Desktop\\competencia-master\\proyecto\\Persistencia\\Persistencia.csproj"
+            "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -2952,7 +2952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
