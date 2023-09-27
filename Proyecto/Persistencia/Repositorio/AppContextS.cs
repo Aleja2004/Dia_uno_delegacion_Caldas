@@ -16,6 +16,7 @@ namespace Proyecto.Persistencia
         public DbSet<Municipios> Municipios {get;set;}
         public DbSet<Registro_Cuidadora> Registro_Cuidadoras {get;set;}
         public DbSet<Servicios> Servicios {get;set;}
+        public DbSet<Personas> Personas {get;set;}
 
     // el void es un metodo vacío que sirve para la conexion a la base de datos.
         protected override void  OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -23,7 +24,7 @@ namespace Proyecto.Persistencia
             if(!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.
-                UseSqlServer("Data source=(localdb)\\MSSQLLocalDB; Initial Catalog=AppS");
+                UseSqlServer("Data source=(localdb)\\MSSQLLocalDB; Initial Catalog=Muzanaa");
             }
 
         }

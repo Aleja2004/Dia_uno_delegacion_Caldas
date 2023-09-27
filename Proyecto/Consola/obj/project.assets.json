@@ -2889,19 +2889,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Sena\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\consola\\Consola.csproj",
+      "projectUniqueName": "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Consola\\Consola.csproj",
       "projectName": "Consola",
-      "projectPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\consola\\Consola.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\consola\\obj\\",
+      "projectPath": "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Consola\\Consola.csproj",
+      "packagesPath": "C:\\Users\\Sena\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Sena\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2913,8 +2913,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Persistencia\\Persistencia.csproj"
+            "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\Persistencia\\Persistencia.csproj"
             }
           }
         }
@@ -2952,7 +2952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

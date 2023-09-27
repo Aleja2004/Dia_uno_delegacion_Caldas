@@ -10,21 +10,20 @@ namespace Proyecto.Consola
         //private static IRepositorio _repo =new Repositorio(new AppContextS());
         static void Main(string[] args)
         {
-            /*Console.WriteLine("Hello World!");
-            CrearEstudiante();
+            Console.WriteLine("Hello World!");
+            AddEstablecimiento();
         }
-        public static void CrearEstudiante()
+        public static void AddEstablecimiento()
         {
-            var Estudiante = new Instructor
+            var Establecimientos = new Establecimientos
             {
-                Nombre="Diana",
-                Apellido="Marin",
-                Edad=35,
-                Correo="Dianam@gmail.com",
-                Rol="Instructora",
                 Codigo="68780",
+                Nombre="Discoteca",
+                Responsable="Humberto",
+                Direccion="El cable",
+                
             };
-            _repo.AddInstructor(Estudiante);*/
+            _repo.AddEstablecimiento(Establecimientos);
         }
     }
 }

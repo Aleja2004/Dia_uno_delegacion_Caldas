@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj": {}
+    "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj": {
+    "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\obj\\",
+        "projectPath": "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Sena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sena\\Desktop\\Dia_uno_delegacion_Caldas\\proyecto\\dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sena\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

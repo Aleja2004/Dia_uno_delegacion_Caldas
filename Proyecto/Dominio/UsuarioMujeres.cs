@@ -2,7 +2,7 @@ using System;
 
 namespace Proyecto.Dominio 
 {
-    public class UsuarioMujeres:Persona
+    public class UsuarioMujeres:Personas
     {
         public string TipoDocumento {get;set;}
         public int Documento {get;set;}
