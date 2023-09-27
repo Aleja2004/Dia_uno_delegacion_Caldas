@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2023\\SENA_2023\\SENASOFT_2023\\Reto\\MujerM\\presentacion\\Presentacion.csproj": {}
+    "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\presentacion\\Presentacion.csproj": {}
   },
   "projects": {
-    "D:\\2023\\SENA_2023\\SENASOFT_2023\\Reto\\MujerM\\presentacion\\Presentacion.csproj": {
+    "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2023\\SENA_2023\\SENASOFT_2023\\Reto\\MujerM\\presentacion\\Presentacion.csproj",
-        "projectName": "Presentacion",
-        "projectPath": "D:\\2023\\SENA_2023\\SENASOFT_2023\\Reto\\MujerM\\presentacion\\Presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\dipam\\.nuget\\packages\\",
-        "outputPath": "D:\\2023\\SENA_2023\\SENASOFT_2023\\Reto\\MujerM\\presentacion\\obj\\",
+        "outputPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dipam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,6 +26,139 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\dipam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\presentacion\\Presentacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\presentacion\\Presentacion.csproj",
+        "projectName": "Presentacion",
+        "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\presentacion\\Presentacion.csproj",
+        "packagesPath": "C:\\Users\\dipam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\presentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dipam\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj"
+              },
+              "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

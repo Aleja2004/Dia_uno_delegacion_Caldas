@@ -21,13 +21,13 @@
               </div>
               <div class="form-group">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Nombre Completo" autocomplete="on" required>
+                  <input asp-for="Mujer.Nombres" type="name" name="name" id="name" placeholder="Nombre Completo"  required>
                 </fieldset>
               </div>
 
                <div class="form-group">
   <fieldset>
-    <select name="document_type" id="document_type"   class="form-control" required>
+    <select asp-for="Mujer.TipoDocumento"name="document_type" id="document_type"   class="form-control" required>
       <option value="">Tipo de documento</option>
       <option value="Cedula">Cedula</option>
       <option value="Cedula de Extranjería">Cedula de Extranjería</option>
@@ -40,41 +40,41 @@
 
 <div class="form-group">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Número Documento" autocomplete="on" required>
+                  <input asp-for="Mujer.Documento" type="name" name="name" id="name" placeholder="Número Documento" autocomplete="on" required>
                 </fieldset>
               </div>
              
                <div class="form-group">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Dirección" autocomplete="on" required>
+                  <input asp-for="Mujer.Direccion" type="name" name="name" id="name" placeholder="Dirección" autocomplete="on" required>
                 </fieldset>
 
     <div class="form-group">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Ciudad" autocomplete="on" required>
+                  <input asp-for="Mujer.Ciudad" type="name" name="name" id="name" placeholder="Ciudad" autocomplete="on" required>
                 </fieldset>
               </div>
 
               </div>
                <div class="form-group">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Número Celular" autocomplete="on" required>
+                  <input asp-for="Mujer.Celular" type="name" name="name" id="name" placeholder="Número Celular" autocomplete="on" required>
                 </fieldset>
               </div>
                <div class="form-group">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="E-Mail" autocomplete="on" required>
+                  <input asp-for="Mujer.Correo"type="name" name="name" id="name" placeholder="E-Mail" autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="form-group">
                 <fieldset>
-                  <input type="text" name="email" id="email"  placeholder="Ocupación" required="">
+                  <input asp-for="Mujer.Ocupación" type="text" name="email" id="email"  placeholder="Ocupación" required="">
                 </fieldset>
               </div>
             
               <div class="form-group">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="main-gradient-button">Enviar Datos</button>
+                  <input type="submit"  value="Enviar Datos" id="form-submit" class="main-gradient-button">
                 </fieldset>
               </div>
             </div>
