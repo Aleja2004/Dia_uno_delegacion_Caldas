@@ -2640,8 +2640,8 @@
     },
     "Dominio/1.0.0": {
       "type": "project",
-      "path": "../dominio/Dominio.csproj",
-      "msbuildProject": "../dominio/Dominio.csproj"
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
     },
     "Persistencia/1.0.0": {
       "type": "project",
@@ -2680,8 +2680,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj"
+            "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj"
             },
             "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj": {
               "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj"

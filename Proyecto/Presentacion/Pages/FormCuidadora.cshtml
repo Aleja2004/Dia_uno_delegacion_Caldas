@@ -7,82 +7,132 @@
 
 
 <section class="contact-us" id="contact-section">
-    <div class="container">
-      <div class="row">
-        
-       <div class="col-lg-6"></div>
-        <div class="col-lg-4">
-          <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-heading">
-                  <h4>Empieza tu recorrido por nuestras Manzanas!!! <em>Registrate</em></h4>
-                </div>
-              </div>
-              <div class="form-group">
-                <fieldset>
-                  <input asp-for="Mujer.Nombres" type="name" name="name" id="name" placeholder="Nombre Completo"  required>
-                </fieldset>
-              </div>
+  <div class="container">
+    <div class="row">
 
-               <div class="form-group">
-  <fieldset>
-    <select asp-for="Mujer.TipoDocumento"name="document_type" id="document_type"   class="form-control" required>
-      <option value="">Tipo de documento</option>
-      <option value="Cedula">Cedula</option>
-      <option value="Cedula de Extranjería">Cedula de Extranjería</option>
-      <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
-      <option value="Pasaporte">Pasaporte</option>
-    </select>
-    <br/>
-  </fieldset>
-</div>
+      <div class="col-lg-4"></div>
 
-<div class="form-group">
-                <fieldset>
-                  <input asp-for="Mujer.Documento" type="name" name="name" id="name" placeholder="Número Documento" autocomplete="on" required>
-                </fieldset>
-              </div>
-             
-               <div class="form-group">
-                <fieldset>
-                  <input asp-for="Mujer.Direccion" type="name" name="name" id="name" placeholder="Dirección" autocomplete="on" required>
-                </fieldset>
-
-    <div class="form-group">
-                <fieldset>
-                  <input asp-for="Mujer.Ciudad" type="name" name="name" id="name" placeholder="Ciudad" autocomplete="on" required>
-                </fieldset>
-              </div>
-
-              </div>
-               <div class="form-group">
-                <fieldset>
-                  <input asp-for="Mujer.Celular" type="name" name="name" id="name" placeholder="Número Celular" autocomplete="on" required>
-                </fieldset>
-              </div>
-               <div class="form-group">
-                <fieldset>
-                  <input asp-for="Mujer.Correo"type="name" name="name" id="name" placeholder="E-Mail" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="form-group">
-                <fieldset>
-                  <input asp-for="Mujer.Ocupación" type="text" name="email" id="email"  placeholder="Ocupación" required="">
-                </fieldset>
-              </div>
-            
-              <div class="form-group">
-                <fieldset>
-                  <input type="submit"  value="Enviar Datos" id="form-submit" class="main-gradient-button">
-                </fieldset>
+      <div class="col-lg-6">
+        <form method="post">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-heading">
+                <h4>Empieza tu recorrido por nuestras Manzanas!!! <em>Registrate</em></h4>
               </div>
             </div>
-          </form>
-        </div>
-       
-       
 
-    
+            <div class="border col-lg-12" style="">
+              
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="container" style="padding: 30px;  ">
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-2">
+                        <label asp-for="Mujer.Nombres"></label>
+                      </div>
+                      <div class="col-sm-8">
+                        <input asp-for="Mujer.Nombres" class="form-control" required>
+                      </div>
+                      <span asp-validation-for="Mujer.Nombres" class="text-danger"></span>
+                    </div>
+                  </div>
+<br/>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <label asp-for="Mujer.TipoDocumento"></label>
+                      </div>
+                      <div class="col-sm-7">
+                        <select asp-validation-for="Mujer.TipoDocumento" class="form-control" required>
+                          
+                          <option value="Tarjeta De Identidad" >Tarjeta de Identidad</option>
+                          <option value="Cedula de Ciudadania" >Cedula de Ciudadania</option>
+                          <option value="Pasaporte" >Pasaporte</option>
+                        </select>
+                      </div>
+                    </div>
+<br/>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <label asp-for="Mujer.Documento"></label>
+                        </div>
+                        <div class="col-sm-8">
+                          <input asp-for="Mujer.Documento" class="form-control" required>
+                        </div>
+                        <span asp-validation-for="Mujer.Documento" class="text-danger"></span>
+                      </div>
+                    </div>
+<br/>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <label asp-for="Mujer.Direccion"></label>
+                        </div>
+                        <div class="col-sm-8">
+                          <input asp-for="Mujer.Direccion" class="form-control" required>
+                        </div>
+                        <span asp-validation-for="Mujer.Direccion" class="text-danger"></span>
+                      </div>
+                    </div>
+<br/>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <label asp-for="Mujer.Ciudad"></label>
+                        </div>
+                        <div class="col-sm-8">
+                          <input asp-for="Mujer.Ciudad" class="form-control" required>
+                        </div>
+                        <span asp-validation-for="Mujer.Ciudad" class="text-danger"></span>
+                      </div>
+                    </div>
+<br/>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <label asp-for="Mujer.Celular"></label>
+                        </div>
+                        <div class="col-sm-8">
+                          <input asp-for="Mujer.Celular" class="form-control" required>
+                        </div>
+                        <span asp-validation-for="Mujer.Celular" class="text-danger"></span>
+                      </div>
+                    </div>
 
- 
+  <br/>                  <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <label asp-for="Mujer.Correo"></label>
+                        </div>
+                        <div class="col-sm-8">
+                          <input asp-for="Mujer.Correo" class="form-control" required>
+                        </div>
+                        <span asp-validation-for="Mujer.Correo" class="text-danger"></span>
+                      </div>
+                    </div>
+
+<br/>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <label asp-for="Mujer.Ocupación"></label>
+                        </div>
+                        <div class="col-sm-8">
+                          <input asp-for="Mujer.Ocupación" class="form-control" required>
+                        </div>
+                        <span asp-validation-for="Mujer.Ocupación" class="text-danger"></span>
+                      </div>
+                    </div>
+<br/>
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-sm-8 offset-sm-2">
+                          <input style="background-color:#7d498a" type="submit" value="Crear Registro" class="btn btn-primary form-control">
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+              </form>
+            </div>

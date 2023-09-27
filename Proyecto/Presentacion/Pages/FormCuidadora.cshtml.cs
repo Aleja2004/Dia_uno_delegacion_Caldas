@@ -10,15 +10,16 @@ namespace Presentacion.Pages
     {
 
         private readonly IRepositorio _repo;
-
+   
         public FormCuidadoraModel(IRepositorio repo)
         {
             _repo=repo;
         }
-
+       [BindProperty]
         public UsuarioMujeres  Mujer {get;set;}
         public void OnGet()
         {
+            //Mujer=new UsuarioMujeres();
         }
 
         public async Task<IActionResult> OnPost()
@@ -27,7 +28,7 @@ namespace Presentacion.Pages
             Mujer=_repo.AddMujeres(Mujer);
             if (Mujer != null)
             {
-                Console.WriteLine("HOla");
+                
                 return RedirectToPage();
 
                 Console.WriteLine(Mujer.Nombres);

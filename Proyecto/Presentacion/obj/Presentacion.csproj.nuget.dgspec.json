@@ -4,14 +4,14 @@
     "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\presentacion\\Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj": {
+    "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\dipam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\obj\\",
+        "outputPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dipam\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj"
+              "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -152,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\dominio\\Dominio.csproj"
+              "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Dominio\\Dominio.csproj"
               },
               "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "C:\\Users\\dipam\\OneDrive\\Escritorio\\Dia_uno_delegacion_Caldas\\Proyecto\\Persistencia\\Persistencia.csproj"
